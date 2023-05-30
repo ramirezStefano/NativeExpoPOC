@@ -5,16 +5,21 @@ import React from 'react';
 export default function App() {
   return (
 
+    // Everything is wrapped in a scrollView Component, similar to view but with scrolling 
     <ScrollView contentContainerStyle={styles.container}>
+      {/* text component with a heading style */}
       <Text style={styles.heading}>React Native Components Demo</Text>
 
       <Text style={styles.label}>Text Input:</Text>
+      {/* TextInput component with a initial value set with the placeholder prop. */}
       <TextInput style={styles.input} placeholder="Enter text" />
 
       <Text style={styles.label}>Button:</Text>
+      {/* Button component with a pop-up window implemented when pressed */}
       <Button title="Press me" onPress={() => alert('Button pressed!')} />
 
       <Text style={styles.label}>Image:</Text>
+      {/* image component with respective dimentions defined and also the source of the image. */}
       <Image
           source={{
             uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
@@ -23,14 +28,16 @@ export default function App() {
         />
 
       <Text style={styles.label}>ScrollView:</Text>
+             {/* text component with scrolling view */}
       <ScrollView style={styles.scrollView}>
         <Text style={styles.scrollViewText}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem at mi euismod pretium at nec mauris.
-          In consectetur auctor aliquet. Integer nec eros dolor. Aliquam erat volutpat. Nullam pellentesque lacinia
-          velit ut luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-          Etiam consectetur felis in sapien finibus, nec interdum lacus interdum. Sed ullamcorper libero at ultricies
-          rhoncus. Vestibulum mattis luctus enim quis volutpat. Ut eleifend est nec orci ultricies, sed elementum
-          lacus condimentum.
+          Text and some more text!Text and some more text!Text and some more text!Text and some more text!
+          Text and some more text!Text and some more text!Text and some more text!Text and some more text!
+          Text and some more text!Text and some more text!Text and some more text!Text and some more text!
+          Text and some more text!Text and some more text!Text and some more text!Text and some more text!
+          Text and some more text!Text and some more text!Text and some more text!Text and some more text!
+          Text and some more text!Text and some more text!Text and some more text!Text and some more text!
+          Text and some more text!Text and some more text!Text and some more text!Text and some more text!
         </Text>
       </ScrollView>
 
@@ -39,6 +46,7 @@ export default function App() {
   );
 }
 
+//css that should not be here once Native Wind? is in use.
 const styles = StyleSheet.create({
   container: {
     padding: 20,
