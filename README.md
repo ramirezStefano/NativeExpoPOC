@@ -42,9 +42,9 @@ yarn expo start
 This command will launch the development server and open the Expo Developer Tools in your browser. From there, you can choose to run the app on a physical device/emulator or in a web browser.
 
 Once the expo wizard is running we can choose operating system that we choose to test:
-'a' for Android
-'i' for iOS
-'w' for Web browser
+'a' for Android,
+'i' for iOS,
+'w' for Web browsers.
 
 ## Contributing
 
