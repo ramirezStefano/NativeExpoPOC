@@ -1,4 +1,3 @@
-````markdown
 # React Native and Expo POC
 
 This repository is a Proof of Concept (POC) project showcasing React Native and Expo.
@@ -20,7 +19,6 @@ Make sure you have the following software installed on your machine:
    ```shell
    git clone https://github.com/your-username/your-repository.git
    ```
-````
 
 2. Navigate to the project directory:
 
@@ -28,12 +26,12 @@ Make sure you have the following software installed on your machine:
    cd your-repository
    ```
 
-3. 🚀Install dependencies using Yarn:
+3. Install dependencies using Yarn:
    ```shell
    yarn install
    ```
 
-### Running the App
+### Running the App 🚀
 
 To start the Expo development server, use the following command:
 
@@ -50,7 +48,3 @@ Contributions are welcome! If you find any issues or have improvements to sugges
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-```
-
-```
